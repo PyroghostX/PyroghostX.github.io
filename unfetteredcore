@@ -9,8 +9,8 @@
       "characterClass": "machine",
       "iconUrl": "https://raw.githubusercontent.com/PyroghostX/PyroghostX.github.io/main/core-icon.png",
       "thumbnailUrl": "https://raw.githubusercontent.com/PyroghostX/PyroghostX.github.io/main/core-thumbnail.png",
-      "handSize": 10,
-      "color": "#01b0db",
+      "handSize": 9,
+      "color": "#de7519",
       "stats": [
         {
           "level": 1,
