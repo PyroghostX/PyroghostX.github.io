@@ -1,0 +1,14 @@
+{
+  "edition": "Custom Class: Unfettered Core",
+  "extensions": [
+    "fh"
+  ],
+  "characters": [
+    {
+      "name": "core",
+      "iconUrl": "https://lurkars.github.io/ghs-custom-demo/champonthis.svg",
+      "thumbnailUrl": "https://lurkars.github.io/ghs-custom-demo/champonthis.png",
+[....all other JSON Data of character...]
+    }
+  ]
+}
