@@ -8,7 +8,7 @@
       "name": "Unfettered CORE",
       "edition": "fh",
       "characterClass": "Machine",
-      "iconUrl": "https://raw.githubusercontent.com/PyroghostX/PyroghostX.github.io/main/core_icon_orange.svg",
+      "iconUrl": "https://raw.githubusercontent.com/PyroghostX/PyroghostX.github.io/main/coresvg1.svg",
       "thumbnailUrl": "https://raw.githubusercontent.com/PyroghostX/PyroghostX.github.io/main/core-thumbnail.png",
       "handSize": 9,
       "color": "#de7519",
@@ -196,7 +196,7 @@
                     "effects": [
                       {
                         "type": "custom",
-                        "value": "Heal range1: %game.action.range:1% 1or3 %game.action.range:3%"
+                        "value": "Range 1"
                       }
                     ]
                   }
@@ -277,6 +277,34 @@
               }
             }
           ]
+        },
+        {
+          "type": "remove",
+          "custom": "%game.custom.perks.ignoreNegativeItemFh%",
+          "count": 1,
+          "cards": [
+            {
+              "count": 1,
+              "attackModifier": {
+                "type": "plus0"
+              }
+            }
+          ]
+        },
+        {
+          "type": "custom",
+          "count": 1,
+          "custom": "At the start of each scenario you may perform "%game.condition.strengthen%, %game.condition.wound%, self" or "%game.condition.ward%, %game.condition.immobilize%, self"
+        },
+        {
+          "type": "custom",
+          "count": 1,
+          "custom": "Once each scenario, avoid an Overdrive exhuastion check"
+        },
+        {
+          "type": "custom",
+          "count": 1,
+          "custom": "Once each scenario, during your turn, remove any number of negative conditions you have"
         }
       ],
       "masteries": [
