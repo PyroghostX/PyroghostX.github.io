@@ -1,11 +1,11 @@
 {
-  "edition": "Custom Class: Unfettered Core-t1",
+  "edition": "Custom Class: Unfettered Core-t2",
   "extensions": [
     "fh"
   ],
   "characters": [
     {
-      "name": "CORE-test1",
+      "name": "CORE-test2",
       "edition": "fh",
       "characterClass": "Machine",
       "iconUrl": "https://raw.githubusercontent.com/PyroghostX/PyroghostX.github.io/main/coresvg1.svg",
@@ -204,7 +204,7 @@
               }
             }
           ]
-        },        
+        },
         {
           "type": "add",
           "count": 2,
@@ -239,7 +239,7 @@
               }
             }
           ]
-        },     
+        },
         {
           "type": "add",
           "count": 1,
@@ -294,7 +294,7 @@
         {
           "type": "custom",
           "count": 1,
-          "custom": "At the start of each scenario you may perform "%game.condition.strengthen%, %game.condition.wound%, self" or "%game.condition.ward%, %game.condition.immobilize%, self"
+          "custom": "At the start of each scenario you may perform %game.condition.strengthen%, %game.condition.wound%, self or %game.condition.ward%, %game.condition.immobilize%, self"
         },
         {
           "type": "custom",
@@ -311,6 +311,6 @@
         "Kill test the last enemy to die in the scenario and finish with nine ability cards in your lost pile",
         "Trigger an ongoing effect on Chaotic Recursion six or more times in one round"
       ]
-        }
+    }
   ]
 }
