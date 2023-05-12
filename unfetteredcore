@@ -8,7 +8,7 @@
       "name": "Unfettered CORE",
       "edition": "fh",
       "characterClass": "Machine",
-      "iconUrl": "https://raw.githubusercontent.com/PyroghostX/PyroghostX.github.io/main/core-icon%20(1).svg",
+      "iconUrl": "https://raw.githubusercontent.com/PyroghostX/PyroghostX.github.io/main/core_icon_orange.svg",
       "thumbnailUrl": "https://raw.githubusercontent.com/PyroghostX/PyroghostX.github.io/main/core-thumbnail.png",
       "handSize": 9,
       "color": "#de7519",
@@ -196,7 +196,7 @@
                     "effects": [
                       {
                         "type": "custom",
-                        "value": "%game.action.range:1%"
+                        "value": "Heal range1: %game.action.range:1% 1or3 %game.action.range:3%"
                       }
                     ]
                   }
