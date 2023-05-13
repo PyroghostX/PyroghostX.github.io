@@ -5,7 +5,7 @@
   ],
   "characters": [
     {
-      "name": "unfettered-core",
+      "name": "Core",
       "edition": "fh",
       "characterClass": "Machine",
       "iconUrl": "https://raw.githubusercontent.com/PyroghostX/PyroghostX.github.io/main/coresvg1.svg",
