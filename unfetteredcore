@@ -1,11 +1,11 @@
 {
-  "edition": "Custom Class: Unfettered Core-t2",
+  "edition": "Custom Class: Unfettered Core",
   "extensions": [
     "fh"
   ],
   "characters": [
     {
-      "name": "CORE-test2",
+      "name": "Unfettered CORE",
       "edition": "fh",
       "characterClass": "Machine",
       "iconUrl": "https://raw.githubusercontent.com/PyroghostX/PyroghostX.github.io/main/coresvg1.svg",
@@ -120,6 +120,10 @@
                 "effects": [
                   {
                     "type": "condition",
+                    "value": "poison"
+                  },
+                  {
+                    "type": "condition",
                     "value": "poison",
                     "effects": [
                       {
@@ -127,10 +131,6 @@
                         "value": "self"
                       }
                     ]
-                  },
-                  {
-                    "type": "condition",
-                    "value": "poison"
                   }
                 ]
               }
@@ -195,8 +195,8 @@
                     "value": 1,
                     "effects": [
                       {
-                        "type": "custom",
-                        "value": "Range 1"
+                        "type": "range",
+                        "value": 1
                       }
                     ]
                   }
@@ -294,12 +294,12 @@
         {
           "type": "custom",
           "count": 1,
-          "custom": "At the start of each scenario you may perform %game.condition.strengthen%, %game.condition.wound%, self or %game.condition.ward%, %game.condition.immobilize%, self"
+          "custom": "At the start of each scenario you may perform %game.condition.strengthen%, %game.condition.wound%, Self or %game.condition.ward%, %game.condition.immobilize%, Self"
         },
         {
           "type": "custom",
           "count": 1,
-          "custom": "Once each scenario, avoid an Overdrive exhuastion check"
+          "custom": "Once each scenario, avoid an Overdrive exhaustion check"
         },
         {
           "type": "custom",
