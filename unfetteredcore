@@ -292,7 +292,7 @@
         {
           "type": "custom",
           "count": 1,
-          "custom": "At the start of each scenario you may perform %game.condition.strengthen%, %game.condition.wound%, Self or %game.condition.ward%, %game.condition.immobilize%, Self"
+          "custom": "At the start of each scenario you may perform \"%game.condition.strengthen%, %game.condition.wound%, Self\" or \"%game.condition.ward%, %game.condition.immobilize%, Self\""
         },
         {
           "type": "custom",
