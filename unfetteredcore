@@ -5,10 +5,10 @@
   ],
   "characters": [
     {
-      "name": "Core",
+      "name": "Core2",
       "edition": "fh",
       "characterClass": "Machine",
-      "iconUrl": "https://raw.githubusercontent.com/PyroghostX/PyroghostX.github.io/main/coresvg1.svg",
+      "iconUrl": "https://raw.githubusercontent.com/PyroghostX/PyroghostX.github.io/main/coresvg2.svg",
       "thumbnailUrl": "https://raw.githubusercontent.com/PyroghostX/PyroghostX.github.io/main/core_thumb.png",
       "handSize": 9,
       "color": "#de7519",
@@ -86,6 +86,10 @@
                 "effects": [
                   {
                     "type": "condition",
+                    "value": "wound"
+                  },
+                  {
+                    "type": "condition",
                     "value": "wound",
                     "effects": [
                       {
@@ -93,10 +97,6 @@
                         "value": "self"
                       }
                     ]
-                  },
-                  {
-                    "type": "condition",
-                    "value": "wound"
                   }
                 ]
               }
