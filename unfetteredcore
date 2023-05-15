@@ -5,9 +5,9 @@
   ],
   "characters": [
     {
-      "name": "Core3",
+      "name": "Core",
       "edition": "fh",
-      "characterClass": "Machine",
+      "characterClass": "Unfettered",
       "iconUrl": "https://raw.githubusercontent.com/PyroghostX/PyroghostX.github.io/main/coresvg2.svg",
       "thumbnailUrl": "https://raw.githubusercontent.com/PyroghostX/PyroghostX.github.io/main/core_thumb.png",
       "handSize": 9,
