@@ -172,8 +172,7 @@
                 "effects": [
                   {
                     "type": "custom",
-                    "value": "Add +1 %game.action.attack% for each condition you have",
-                    "hint": "testing the hint area"
+                    "value": "Add +1 %game.action.attack% for each condition you have"
                   }
                 ]
               }
